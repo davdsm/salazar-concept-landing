@@ -1,0 +1,25 @@
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 992px) {
+    body>main {
+        margin: 80px;
+    }
+
+
+    body>main>div#gif>img {
+        width: 70%;
+    }
+
+    body>main>header>h1#title {
+        font-size: 6.4vw;
+        margin: 0 0 0 20px;
+    }
+
+    body>main>article {
+        font-size: 290%;
+        margin: 125.6px 0 0 0;
+        line-height: 1.2;
+    }
+    body>main>article>p {
+        margin: 0;
+    }
+}

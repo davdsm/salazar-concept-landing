@@ -1,0 +1,37 @@
+/* CSS media query dentro de um stylesheet */
+@media (max-width: 992px) {
+
+    body > main > header {
+        flex-flow: column;
+        top: 30px;
+      }
+
+    body>main {
+        margin: 20px;
+        width: calc(100% - 40px);
+        height: calc(100dvh - 60px);
+    }
+
+
+    body>main>div#gif>img {
+        width: 100%;
+        margin-top: 40%;
+    }
+
+    body > main > header > h1#title {
+        width: 100%;
+        font-size: 7vw;
+        margin: 30px 0 0 0;
+        text-align: center;
+      }
+
+      body > main > article {
+        font-size: 100%;
+        line-height: 1.2;
+        margin: 40% 0 0 0;
+      }
+    body>main>article>p {
+        margin: 0;
+        padding: 0;
+    }
+}

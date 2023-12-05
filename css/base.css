@@ -1,0 +1,87 @@
+:root {
+    --var-main-color: #ffffff;
+    --var-min-background: #000000;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background: var(--var-min-background);
+}
+
+body>main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: calc(100% - 160px);
+    height: calc(100dvh - 160px);
+    position: relative;
+    flex-flow: column;
+}
+
+body>main>div#gif {
+    text-align: center;
+    width: 100%;
+}
+
+body>main>header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body>main>header>#logo {
+    display: inline-block;
+    cursor: move;
+    z-index: 1;
+}
+
+body>main>header>h1#title {
+    margin: 0;
+    padding: 0;
+    color: var(--var-main-color);
+    font-family: "N27";
+}
+
+body>main>article {
+    position: absolute;
+    text-align: justify;
+    color: var(--var-main-color);
+    font-family: "N27";
+    font-weight: 800;
+    mix-blend-mode: difference;
+}
+
+body>main>footer {
+    position: absolute;
+    color: var(--var-main-color);
+    font-family: "N27";
+    font-weight: 500;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+body>main>footer>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: underline;
+    justify-content: space-between;
+}
+body>main>footer>ul>li>a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}

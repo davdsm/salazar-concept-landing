@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "N27"; /* Corrigido o nome da família da fonte */
+    src: url('../font/bold/n27-bold-webfont.eot');
+    src: url('../font/bold/n27-bold-webfont.eot') format('embedded-opentype'),
+        url('../font/bold/n27-bold-webfont.woff2') format('woff2'),
+        url('../font/bold/n27-bold-webfont.woff') format('woff');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "N27"; /* Mantido o mesmo nome da família da fonte */
+    src: url('../font/regular/n27-regular-webfont.eot');
+    src: url('../font/regular/n27-regular-webfont.eot') format('embedded-opentype'),
+        url('../font/regular/n27-regular-webfont.woff2') format('woff2'),
+        url('../font/regular/n27-regular-webfont.woff') format('woff'),
+        url('../font/regular/n27-regular-webfont.ttf') format('truetype'); /* Adicionado o caminho completo para o arquivo ttf */
+    font-weight: 500;
+}
