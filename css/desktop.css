@@ -15,11 +15,12 @@
     }
 
     body>main>article {
-        font-size: 290%;
+        font-size: 250%;
         margin: 125.6px 0 0 0;
         line-height: 1.2;
     }
     body>main>article>p {
         margin: 0;
+        letter-spacing: 4px;
     }
 }

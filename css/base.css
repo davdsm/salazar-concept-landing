@@ -3,7 +3,8 @@
     --var-min-background: #000000;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -59,6 +60,14 @@ body>main>article {
     font-family: "N27";
     font-weight: 800;
     mix-blend-mode: difference;
+    text-align-last: justify;
+}
+
+body>main>article>p {
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    -webkit-hyphens: none;
+    hyphens: none;
 }
 
 body>main>footer {
@@ -80,6 +89,7 @@ body>main>footer>ul {
     text-decoration: underline;
     justify-content: space-between;
 }
+
 body>main>footer>ul>li>a {
     text-decoration: none;
     cursor: pointer;

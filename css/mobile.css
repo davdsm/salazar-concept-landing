@@ -22,7 +22,8 @@
         width: 100%;
         font-size: 7vw;
         margin: 30px 0 0 0;
-        text-align: center;
+        text-align: justify;
+        text-align-last:justify;
       }
 
       body > main > article {
