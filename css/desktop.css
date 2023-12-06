@@ -1,5 +1,11 @@
 /* CSS media query dentro de um stylesheet */
 @media (min-width: 992px) {
+
+    body {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+
     body>main {
         margin: 80px;
     }
@@ -10,7 +16,7 @@
     }
 
     body>main>header>h1#title {
-        font-size: 6.4vw;
+        font-size: 686%;
         margin: 0 0 0 20px;
     }
 
@@ -19,6 +25,7 @@
         margin: 125.6px 0 0 0;
         line-height: 1.2;
     }
+
     body>main>article>p {
         margin: 0;
         letter-spacing: 4px;
