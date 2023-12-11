@@ -16,12 +16,14 @@
     }
 
     body>main>header>h1#title {
-        font-size: 686%;
+        /*font-size: 686%;*/
+        font-size: 5.9vw;
         margin: 0 0 0 20px;
     }
 
     body>main>article {
-        font-size: 250%;
+        /* font-size: 250%; */
+        font-size: 3vw;
         margin: 125.6px 0 0 0;
         line-height: 1.2;
     }
@@ -29,5 +31,15 @@
     body>main>article>p {
         margin: 0;
         letter-spacing: 4px;
+    }
+}
+
+@media screen and (min-width: 2050px) {
+    body>main>article {
+        font-size: 250%;
+    }
+
+    body>main>header>h1#title {
+        font-size: 686%;
     }
 }
